@@ -227,9 +227,7 @@ public class DigitalBank extends Bank implements Serializable {
                     withdrawAccount.iWithdraw(withdrawAccount, amount);
 
                     System.out.println("Rút tiền thành công, biên lai giao dịch!");
-
                     withdrawAccount.iCreateTransaction(withdrawAccount.getAccountNumber(),-amount,status, TransactionType.WITHDRAW);
-
                     withdrawAccount.log(amount);
                     break;
                 }
