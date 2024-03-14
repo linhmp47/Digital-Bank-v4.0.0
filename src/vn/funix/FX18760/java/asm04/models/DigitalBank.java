@@ -201,6 +201,7 @@ public class DigitalBank extends Bank implements Serializable {
 
                 System.out.println("Nhập số tài khoản ");
                 withDrawAccountNumber = Utils.getAccountNumber();
+
                 if (customerWithdraw.getAccountOfAccounts(withDrawAccountNumber) == null) {
                     System.out.println("Số tài khoản này không thuộc khách hàng có CCCD: " + customerId);
                 } else break;
