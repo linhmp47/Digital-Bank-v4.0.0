@@ -16,6 +16,7 @@ import static vn.funix.FX18760.java.asm04.Asm04.menuChoices;
 import static vn.funix.FX18760.java.asm04.models.Customer.getAccountByAccountNumber;
 
 public class DigitalBank extends Bank implements Serializable {
+
     /**
      * showCustomers(): 1. Xem danh sách khách hàng
      */
