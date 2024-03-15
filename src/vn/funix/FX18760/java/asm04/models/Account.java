@@ -52,7 +52,6 @@ public abstract class Account implements Serializable, ITransaction, IReport, IT
     public void setBalance(double balance) {
         this.balance = balance;
     }
-
     public boolean isPremium(){
         return this.balance >= Utils.MIN_PREMIUM_BALANCE;
     }
